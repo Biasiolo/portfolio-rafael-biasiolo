@@ -19,7 +19,7 @@
 
 <body>
     <div class="container">
-        <div class="banner">
+        <div id="topo" class="banner">
             <div class="profile-card">
                 <img class="profile-card__avatar" src="./images/avatar-biasiolo.png" alt="teste" />
                 <div class="profile-card__bio">
@@ -130,140 +130,211 @@
     <div class="soft-skills">
         <h2 class="text-center soft-skills__title">Soft Skills</h2>
         <div class="row">
-            <div class="col-md-12 p-2">
+            <div class="col-md-12 p-3">
                 <button type="button" class=" skill-button"><i class="bi bi-lightbulb"></i>  Criatividade</button>
                 <button type="button" class=" skill-button"><i class="bi bi-clipboard-pulse"></i>  Resolução de problemas</button>
                 <button type="button" class=" skill-button"><i class="bi bi-chat"></i>  Comunicação</button>
                 <button type="button" class=" skill-button"><i class="bi bi-gear"></i>  Trabalho em equipe</button>
                 <button type="button" class=" skill-button"><i class="bi bi-check-circle"></i>  Negociação</button>
-                
-                
-
             </div>
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="areas-atuacao">
-        <h2 class="text-center areas-atuacao__title">Áreas de Atuação</h2>
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">FRONT-END</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">SEO</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">UX/UI</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">STORYTELLING</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">WEB DESIGN</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">DIGITAL MKT</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">DESIGN</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">SCRUM</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 
     
 
-    <section id="projetos">
-        <div class="container mt-4">
-            <h3 class="text-center p-3">Projetos Executados</h3>
-            <div class="pro">
-            <div class="row" id="projetoContainer">
-                <div class="col-md-3 banner-card">
-                    <div class="card card2">
-                        <img src="https://placehold.jp/100x100.png" class="card-img-top" alt="teste" loading="lazy">
+<section id="projetos">
+    <div class="container">
+        <div class="executed-projects">
+            <h2 class="text-center executed-projects__title">Projetos Executados</h2>
+            <div class="row">
+                <div class="col-md-4 mb-2">
+                    <div class="project-card">
+                        <img src="./images/pi1.png" class="card-img-top" alt="Imagem do Projeto">
                         <div class="card-body">
-                            <h4 class="card-title">Projeto 1</h4>
-                            <p class="card-text"><i class="bi bi-person-fill-up"></i> Lorem ipsum tus facilis aliquam dolorem ut nemo? Id, recusandae hic.</p>
-                            <button class="btn btn-primary open-btn">Abrir</button>
+                            <h5 class="card-title">Profile Images</h5>
+                            <p class="card-text1">Website para download de imagens</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção do projeto, design de imagens, desenvolvimento e implantação.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, Less, JS, Gulp, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 banner-card">
-                    <div class="card card2">
-                        <img src="https://placehold.jp/100x100.png" class="card-img-top" alt="teste" loading="lazy">
+                <!-- Adicione mais um card para outro projeto -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./images/pi2.png" class="card-img-top" alt="Imagem do Projeto">
                         <div class="card-body">
-                            <h4 class="card-title">Projeto 2</h4>
-                            <p class="card-text"><i class="bi bi-person-fill-up"></i> Lorem ipsum tus facilis aliquam dolorem ut nemo? Id, recusandae hic.</p>
-                            <button class="btn btn-primary open-btn">Abrir</button>
+                            <h5 class="card-title">Best Karaoke</h5>
+                            <p class="card-text1">Website de busca de vídeos Karaoke</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção do projeto, imagens, mecânismo de busca e desenvolvimento.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, CSS, JS, Api Rest, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 banner-card">
-                    <div class="card card2">
-                        <img src="https://placehold.jp/100x100.png" class="card-img-top" alt="teste" loading="lazy">
+                <!-- Adicione mais um card para outro projeto -->
+                
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./images/pi3.png" class="card-img-top" alt="Imagem do Projeto">
                         <div class="card-body">
-                            <h4 class="card-title">Projeto 3</h4>
-                            <p class="card-text"><i class="bi bi-person-fill-up"></i> Lorem ipsum tus facilis aliquam dolorem ut nemo? Id, recusandae hic.</p>
-                            <button class="btn btn-primary open-btn">Abrir</button>
+                            <h5 class="card-title">A Clockwork Orange</h5>
+                            <p class="card-text1">Landing Page sobre o filme</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção do projeto, imagens, pesquisa, desenvolvimento e implantação.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, SASS, JS, Gulp, SEO, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 banner-card">
-                    <div class="card card2">
-                        <img src="https://placehold.jp/100x100.png" class="card-img-top" alt="teste" loading="lazy">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./images/pi4.png" class="card-img-top" alt="Imagem do Projeto">
                         <div class="card-body">
-                            <h4 class="card-title">Projeto 3</h4>
-                            <p class="card-text"><i class="bi bi-person-fill-up"></i> Lorem ipsum tus facilis aliquam dolorem ut nemo? Id, recusandae hic.</p>
-                            <button class="btn btn-primary open-btn">Abrir</button>
+                            <h5 class="card-title">Surrealismo</h5>
+                            <p class="card-text1">Website sobre o Surrealismo</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção do projeto, imagens, pesquisa, desenvolvimento e implantação.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, SASS, JS, Parcel, SEO, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./images/pi5.png" class="card-img-top" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <h5 class="card-title">JSL Bank</h5>
+                            <p class="card-text1">Landing Page para StartUp</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção gráfica, imagens, interface, desenvolvimento e implantação.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, CSS, JS, SEO, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./images/pi6.png" class="card-img-top" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixellers Studio</h5>
+                            <p class="card-text1">Landing Page para loja</p>
+                            <p class="card-text2"><i class="bi bi-person-workspace"></i><strong> Atribuições:</strong> Concepção do projeto, imagens, layout, desenvolvimento e implantação.</p>
+                            <p class="card-text3"><i class="bi bi-stack"></i><strong> Stacks:</strong> HTML, CSS, JS, Gulp, SEO, Design Gráfico, Design UX-UI.</p>
+                            <a href="#" class="btn btn-primary">Acessar Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais colunas para mais projetos -->
             </div>
-            </div>
-            
         </div>
-    </section>
+    </div>
+</section>
+
+
+    <div class="container">
+        <div class="areas-atuacao">
+            <h2 class="text-center areas-atuacao__title">Áreas de Atuação</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">FRONT-END</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">SEO</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">UX/UI</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">STORYTELLING</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">WEB DESIGN</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">DIGITAL MKT</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">DESIGN</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">SCRUM</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-12 mt-3">
+                    <a href="#topo" class="back-to-top text-center">↑ Voltar ao topo ↑</a>
+                    
+                    <ul class="footer__social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/rafael-biasiolo/" target="_blank">
+                                <img src="./images/linkedin.svg" alt="logo linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Biasiolo" target="_blank">
+                                <img src="./images/github.svg" alt="logo github">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:biasiolorafael@gmail.com" target="_blank">
+                                <img src="./images/mail.svg" alt="logo mail">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/+5511985888874" target="_blank">
+                                <img src="./images/phone.svg" alt="logo mail">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="footer__copy">© Biasiolo - 2024 Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
 
 
 
