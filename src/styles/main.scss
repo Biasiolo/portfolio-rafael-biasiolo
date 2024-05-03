@@ -286,14 +286,21 @@ body {
 
     .project-card {
         border-radius: 12px;
-        background-color: rgb(5, 5, 5);
+        background-color: rgb(0, 0, 0);
         box-shadow: 1px 2px 2px 4px rgba(99, 99, 99, 0.4);
         transition: transform 0.3s ease;
         margin-bottom: 1rem;
         color: rgb(228, 228, 228);
+        
 
         .card-img-top {
             border-radius: 12px 12px 0 0;
+            margin-top: 8px;
+            transition: ease 0.1s;
+            &:hover {
+                transform: scale(0.93);
+            }
+            
 
         }
 
