@@ -440,7 +440,7 @@ body {
         /* Defina uma altura mínima (por exemplo, 200px) */
         min-height: 200px;
         padding: 20px;
-        border: 1px solid #211ea7;
+        border: 2px solid #211ea7;
         /* Adicione bordas arredondadas */
         border-radius: 5px;
         /* Centralizar vertical e horizontalmente */
@@ -456,6 +456,12 @@ body {
             font-size: 28px;
             font-weight: bold;
             cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .modal-content {
+            width: 80%;
         }
     }
 }
