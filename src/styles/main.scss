@@ -50,7 +50,7 @@ body {
             object-fit: cover;
             border: 3px solid #000;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #1b1ffd;
+            background-color: #211ea7;
             transition: all ease .3s;
 
             &:hover {
@@ -196,21 +196,31 @@ body {
         border-radius: 25px;
         padding: 12px 20px;
         margin: 0.5rem auto;
-        background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
-        background-position: center center;
-        border: 1px solid #a8a8a8;
+        background-color: transparent;
+        border: 2px solid #211ea7;
         cursor: crosshair;
-        font-weight: 700;
-        color:rgb(228, 228, 228);
-
+        font-weight: 500;
+        color: rgb(228, 228, 228);
+        transition: transform 0.3s ease;
+    
         &:hover {
-
-            color: #000;
-            transform: scale(1.02);
-            background-position: center bottom;
-            color:rgb(228, 228, 228);
+            background-color: #0a06ca;
+            animation: rotateButton 0.2s linear 2;
         }
     }
+    
+    @keyframes rotateButton {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(-4deg);
+        }
+        100% {
+            transform: rotate(4deg);
+        }
+    }
+    
 }
 
 .areas-atuacao {
@@ -336,16 +346,20 @@ body {
             .btn {
                 font-size: 1rem;
                 font-weight: 500;
-                background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
-                background-position: center center;
+                background-color: transparent;
+                width: 100px;
+                border: 2px solid #211ea7;
 
                 &:hover {
-                    transform: scale(1.02);
-                    background-position: right bottom;
+                    background-color: #0a06ca;
                 }
             }
         }
     }
+}
+
+.card-details {
+    display: none;
 }
 
 .footer {
@@ -364,6 +378,10 @@ body {
         text-decoration: none;
         font-size: 1rem;
         font-weight: 500;
+        color: #211ea7;
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     &__title {
@@ -371,11 +389,10 @@ body {
         padding-top: 12px;
         margin: 0 auto;
         border-top: 1px solid #a8a8a8;
-
     }
 
     &__copy {
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: rgb(228, 228, 228);
         max-width: 100%;
     }
@@ -396,6 +413,49 @@ body {
                     transform: scale(1.3);
                 }
             }
+        }
+    }
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Centralizar vertical e horizontalmente */
+
+    justify-content: center;
+    align-items: center;
+
+    .modal-content {
+        background-color: #000000;
+        /* Defina a largura desejada (por exemplo, 30%) */
+        width: 30%;
+        /* Defina uma altura mínima (por exemplo, 200px) */
+        min-height: 200px;
+        padding: 20px;
+        border: 1px solid #211ea7;
+        /* Adicione bordas arredondadas */
+        border-radius: 5px;
+        /* Centralizar vertical e horizontalmente */
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:#fff;
+
+        .close {
+            color: #211ea7;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
         }
     }
 }
