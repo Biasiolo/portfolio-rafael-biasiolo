@@ -336,11 +336,12 @@ body {
             .card-text2 {
                 text-align: left;
                 opacity: .9;
+                
             }
             .card-text3 {
                 opacity: .9;
                 text-align: justify;
-                font-size: 1rem;
+
             }
 
             .btn {
@@ -360,6 +361,7 @@ body {
 
 .card-details {
     display: none;
+
 }
 
 .footer {
@@ -449,6 +451,7 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         color:#fff;
+        font-size: 1.1rem;
 
         .close {
             color: #211ea7;
