@@ -202,25 +202,28 @@ body {
         font-weight: 500;
         color: rgb(228, 228, 228);
         transition: transform 0.3s ease;
-    
+
         &:hover {
-            background-color: #214cce;
+            background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
+            background-position: center center;
             animation: rotateButton 0.2s linear 2;
         }
     }
-    
+
     @keyframes rotateButton {
         0% {
             transform: rotate(0deg);
         }
+
         50% {
             transform: rotate(-4deg);
         }
+
         100% {
             transform: rotate(4deg);
         }
     }
-    
+
 }
 
 .areas-atuacao {
@@ -250,7 +253,8 @@ body {
     .card {
         border: none;
         border-radius: 12px;
-        background-color: #214cce;
+        background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
+        background-position: center center;
         box-shadow: 1px 1px 1px 2px rgba(33, 76, 206, 0.4);
 
         cursor: crosshair;
@@ -259,7 +263,7 @@ body {
             transform: scale(1.02);
             background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
             background-position: center bottom;
-            color:#000;
+            color: #000;
         }
 
         // Estilo do título do card
@@ -301,16 +305,17 @@ body {
         transition: transform 0.3s ease;
         margin-bottom: 1rem;
         color: rgb(228, 228, 228);
-        
+
 
         .card-img-top {
             border-radius: 12px 12px 0 0;
             margin-top: 8px;
             transition: ease 0.1s;
+
             &:hover {
                 transform: scale(0.93);
             }
-            
+
 
         }
 
@@ -322,7 +327,7 @@ body {
                 font-size: 1.5rem;
                 font-weight: bold;
                 color: #f3f3f3;
-                
+
             }
 
             .card-text1 {
@@ -330,14 +335,15 @@ body {
                 margin-bottom: 1rem;
                 opacity: .7;
                 border-bottom: 1px solid #214cce;
-                color:#f8f8f8;
+                color: #f8f8f8;
             }
 
             .card-text2 {
                 text-align: left;
                 opacity: .9;
-                
+
             }
+
             .card-text3 {
                 opacity: .9;
                 text-align: justify;
@@ -352,7 +358,8 @@ body {
                 border: 2px solid #214cce;
 
                 &:hover {
-                    background-color: #214cce;
+                    background-image: url('https://profile-in-banners.vercel.app/viewer/source/images/25.png');
+                    background-position: center center;
                 }
             }
         }
@@ -378,9 +385,10 @@ body {
 
     a {
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 500;
         color: #214cce;
+
         &:hover {
             transform: scale(1.05);
         }
@@ -406,6 +414,7 @@ body {
 
         li {
             margin-right: 1rem;
+
             img {
                 width: 30px;
                 height: 30px;
@@ -450,7 +459,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color:#fff;
+        color: #fff;
         font-size: 1.1rem;
 
         .close {
