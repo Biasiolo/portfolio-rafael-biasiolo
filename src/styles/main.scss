@@ -198,7 +198,7 @@ body {
         margin: 0.5rem auto;
         background-color: transparent;
         border: 2px solid #214cce;
-        cursor: crosshair;
+        cursor: url("../images/check.svg"), auto;
         font-weight: 500;
         color: rgb(228, 228, 228);
         transition: transform 0.3s ease;
